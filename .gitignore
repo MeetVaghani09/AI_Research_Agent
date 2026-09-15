@@ -27,8 +27,8 @@ frontend/.env
 frontend/.env.*
 
 # Application data
-data/uploads/
-data/documents/
+data/uploads/*
+data/documents/*
 
 # Logs
 *.log
@@ -36,3 +36,6 @@ data/documents/
 # OS
 .DS_Store
 Thumbs.db
+
+!data/uploads/.gitkeep
+!data/documents/.gitkeep
